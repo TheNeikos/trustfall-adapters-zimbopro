@@ -2,7 +2,7 @@ mod adapter_impl;
 mod edges;
 mod entrypoints;
 mod properties;
-mod vertex;
+pub mod vertex;
 
 #[cfg(test)]
 mod tests;
